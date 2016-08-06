@@ -11,6 +11,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'sprockets', '~> 3.7'
+
 group :production do
 	gem 'rails_12factor', '~> 0.0.3'
 	gem 'thin', '~> 1.7'
